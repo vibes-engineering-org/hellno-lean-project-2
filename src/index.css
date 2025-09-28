@@ -1,10 +1,10 @@
+@import "tailwindcss";
+
 @config "../tailwind.config.js";
 
 @plugin "tailwindcss-animate";
 @source "../index.html";
 @source "./**/*.{js,jsx,ts,tsx}";
-
-@import "tailwindcss";
 
 @layer base {
   :root {
